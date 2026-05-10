@@ -1,3 +1,5 @@
+tap "bitcldr/tap"
+brew "bitcldr/tap/dfm"
 brew "atuin"
 brew "bat"
 brew "duf"
