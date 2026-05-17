@@ -1,3 +1,11 @@
+-- ================================================================================================
+-- TITLE: nvim-treesitter
+-- ABOUT:
+--    Tree-sitter integration for Neovim; provides accurate syntax highlighting, indentation,
+--    code navigation, and folding using incremental parsing.
+--    https://github.com/nvim-treesitter/nvim-treesitter
+-- ================================================================================================
+
 return {
   -- since `vim.tbl_deep_extend`, can only merge tables and not lists, the code above
   -- would overwrite `ensure_installed` with the new value.
@@ -8,6 +16,7 @@ return {
       vim.list_extend(opts.ensure_installed, {
         "bash",
         "css",
+        "dockerfile",
         "fish",
         "gitignore",
         "graphql",

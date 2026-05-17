@@ -1,3 +1,11 @@
+-- ================================================================================================
+-- TITLE: conform.nvim
+-- ABOUT:
+--    Lightweight, extensible formatter plugin; integrates with LSP and supports per-filetype
+--    formatter chains with fallback and async support.
+--    https://github.com/stevearc/conform.nvim
+-- ================================================================================================
+
 return {
   "stevearc/conform.nvim",
   opts = function(_, opts)

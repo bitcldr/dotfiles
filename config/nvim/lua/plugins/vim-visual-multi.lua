@@ -1,3 +1,11 @@
+-- ================================================================================================
+-- TITLE: vim-visual-multi
+-- ABOUT:
+--    Multiple-cursor plugin inspired by Sublime Text; supports adding cursors by pattern,
+--    column selection, and independent per-cursor editing.
+--    https://github.com/mg979/vim-visual-multi
+-- ================================================================================================
+
 return {
   {
     "mg979/vim-visual-multi",

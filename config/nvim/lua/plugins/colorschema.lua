@@ -1,3 +1,11 @@
+-- ================================================================================================
+-- TITLE: melange-nvim
+-- ABOUT:
+--    Warm, earthy color scheme with careful contrast ratios; supports both dark and light
+--    variants and is designed specifically for tree-sitter semantic highlights.
+--    https://github.com/savq/melange-nvim
+-- ================================================================================================
+
 return {
   --   {
   --     "folke/tokyonight.nvim",
