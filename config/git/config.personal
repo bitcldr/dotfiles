@@ -1,3 +1,6 @@
+[include]
+	path = ~/.config/git/config.base
+
 [user]
 	name = Dmitry Fisenko
 	email = fisenkodv@gmail.com

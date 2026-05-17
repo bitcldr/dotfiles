@@ -151,7 +151,7 @@
     "copy_on_select": true,
     "font_family": "JetBrainsMonoNL Nerd Font",
   },
-  "theme": "Ayu Mirage",
+  "theme": "Ayu Dark",
   "vim_mode": false,
   "wrap_guides": [
     80,
