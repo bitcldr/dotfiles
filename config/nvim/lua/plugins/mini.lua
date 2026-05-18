@@ -1,7 +1,7 @@
 -- ================================================================================================
--- TITLE : mini.nvim
--- LINKS :
---   > github : https://github.com/echasnovski/mini.nvim
+-- TITLE: mini.nvim
+-- LINKS:
+--   > github : https://github.com/nvim-mini/mini.nvim
 -- ABOUT : Library of 40+ independent Lua modules.
 -- ================================================================================================
 
