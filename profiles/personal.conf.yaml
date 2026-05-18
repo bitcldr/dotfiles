@@ -48,7 +48,7 @@ shell:
     script: brew cleanup
   - name: Installing mise tools
     script: mise install
-  - name: Refreshing Claude plugins
+  - name: Refreshing Claude official plugins
     quiet: true
     script: |
       claude plugin marketplace remove claude-plugins-official || true
@@ -61,6 +61,9 @@ shell:
       claude plugin install typescript-lsp@claude-plugins-official
       claude plugin install rust-analyzer-lsp@claude-plugins-official
       claude plugin install gopls-lsp@claude-plugins-official
+  - name: Refreshing Claude 3rd party plugins
+    quiet: true
+    script: |
       claude plugin marketplace remove cc-thingz || true
       claude plugin marketplace add umputun/cc-thingz
       claude plugin install brainstorm@umputun-cc-thingz
