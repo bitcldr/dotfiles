@@ -37,26 +37,30 @@ link:
 shell:
   - name: Setting default shell to fish
     script: ./scripts/change-shell.sh
-  # - name: Installing brew packages
-  #   script: brew bundle install --file=os/macos/brewfile
-  #   quiet: true
-  # - name: Updating brew
-  #   script: brew update
-  # - name: Upgrading brew packages
-  #   script: brew upgrade
-  # - name: Cleaning up brew
-  #   script: brew cleanup
-  # - name: Installing mise tools
-  #   script: mise install
-  # - name: Refreshing Claude plugins
-  #   quiet: true
-  #   script: |
-  #     claude plugin marketplace remove claude-plugins-official || true
-  #     claude plugin marketplace add anthropics/claude-plugins-official
-  #     claude plugin install commit-commands@claude-plugins-official
-  #     claude plugin install context7@claude-plugins-official
-  #     claude plugin install explanatory-output-style@claude-plugins-official
-  #     claude plugin install frontend-design@claude-plugins-official
-  #     claude plugin install github@claude-plugins-official
-  #     claude plugin install typescript-lsp@claude-plugins-official
-  #     claude plugin install rust-analyzer-lsp@claude-plugins-official
+  - name: Installing brew packages
+    script: brew bundle install --file=os/macos/brewfile
+    quiet: true
+  - name: Updating brew
+    script: brew update
+  - name: Upgrading brew packages
+    script: brew upgrade
+  - name: Cleaning up brew
+    script: brew cleanup
+  - name: Installing mise tools
+    script: mise install
+  - name: Refreshing Claude plugins
+    quiet: true
+    script: |
+      claude plugin marketplace remove claude-plugins-official || true
+      claude plugin marketplace add anthropics/claude-plugins-official
+      claude plugin install commit-commands@claude-plugins-official
+      claude plugin install context7@claude-plugins-official
+      claude plugin install explanatory-output-style@claude-plugins-official
+      claude plugin install frontend-design@claude-plugins-official
+      claude plugin install github@claude-plugins-official
+      claude plugin install typescript-lsp@claude-plugins-official
+      claude plugin install rust-analyzer-lsp@claude-plugins-official
+      claude plugin install gopls-lsp@claude-plugins-official
+      claude plugin marketplace remove cc-thingz || true
+      claude plugin marketplace add umputun/cc-thingz
+      claude plugin install brainstorm@umputun-cc-thingz
