@@ -11,12 +11,17 @@ return {
     "mason-org/mason.nvim",
     opts = {
       ensure_installed = {
-        "stylua",
-        "shellcheck",
-        "shfmt",
-        "hadolint",
-        "flake8",
-        "rust-analyzer",
+        "stylua",                     -- Lua
+        "shellcheck",                 -- Shell
+        "shfmt",                      -- Shell
+        "hadolint",                   -- Dockerfile
+        "flake8",                     -- Python
+        "typescript-language-server", -- TypeScript / JavaScript
+        "prettierd",                  -- TypeScript / JavaScript / CSS / HTML
+        "eslint_d",                   -- TypeScript / JavaScript
+        "gopls",                      -- Go (LSP)
+        "goimports",                  -- Go (formatter)
+        "golangci-lint",              -- Go (linter)
       },
     },
   },
