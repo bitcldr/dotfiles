@@ -130,6 +130,7 @@
   },
   "enabledPlugins": {
     "brainstorm@umputun-cc-thingz": true,
+    "review@umputun-cc-thingz": true,
     "commit-commands@claude-plugins-official": true,
     "context7@claude-plugins-official": true,
     "explanatory-output-style@claude-plugins-official": true,
@@ -165,7 +166,7 @@
   },
   "spinnerTipsEnabled": false,
   "alwaysThinkingEnabled": true,
-  "effortLevel": "medium",
+  "effortLevel": "high",
   "tui": "fullscreen",
   "voiceEnabled": true
 }
