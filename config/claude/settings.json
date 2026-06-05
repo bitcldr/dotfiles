@@ -95,7 +95,6 @@
       "Bash(git add -A:*)",
       "Bash(git add -f:*)",
       "Bash(git commit -a:*)",
-      "Bash(git push:*)",
       "Bash(git reset --hard:*)",
       "Bash(git worktree remove --force:*)",
       "Bash(npm i --global:*)",
