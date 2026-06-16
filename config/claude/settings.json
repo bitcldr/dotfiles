@@ -165,7 +165,6 @@
   },
   "spinnerTipsEnabled": false,
   "alwaysThinkingEnabled": true,
-  "effortLevel": "high",
   "tui": "fullscreen",
   "voiceEnabled": true
 }

@@ -13,6 +13,10 @@
       "type": "registry"
     },
     "claude-acp": {
+      "default_config_options": {
+        "model": "opus",
+        "effort": "default"
+      },
       "type": "registry"
     }
   },
