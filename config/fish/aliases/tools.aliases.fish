@@ -25,3 +25,6 @@ alias rsync "rsync --archive --verbose --info=progress2 --human-readable --parti
 if type -q just
     alias j just
 end
+
+alias build-nvim "$HOME/bin/build-nvim.sh"
+alias backup-ssh "$HOME/bin/backup-ssh.sh"

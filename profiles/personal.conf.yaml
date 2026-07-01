@@ -33,10 +33,11 @@ link:
   ~/.config/zsh: config/zsh
   ~/.zshrc: config/zsh/zshrc.zsh
   ~/.claude: config/claude
+  ~/bin: scripts/bin
 
 shell:
   - name: Setting default shell to fish
-    script: ./scripts/change-shell.sh
+    script: ./scripts/setup/change-shell.sh
   - name: Installing brew packages
     script: brew bundle install --file=os/macos/brewfile
     quiet: true
