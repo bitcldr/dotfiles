@@ -172,7 +172,7 @@
     "copy_on_select": true,
     "font_family": "JetBrainsMonoNL Nerd Font",
   },
-  "theme": "Ayu Dark",
+  "theme": "Gruvbox Dark Soft",
   "vim_mode": false,
   "wrap_guides": [
     80,

@@ -1,6 +1,4 @@
 [tools]
-bun = "latest"
-deno = "latest"
 node = "latest"
 python = "latest"
 rust = "latest"
