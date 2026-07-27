@@ -7,10 +7,26 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "context_servers": {
+    "trek": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote@latest",
+        "https://trek.int.fisenko.net/mcp",
+        "3334",
+        "--host",
+        "127.0.0.1",
+        "--debug"
+      ],
+      "env": {}
+    }
+  },
   "cli_default_open_behavior": "new_window",
   "agent_servers": {
     "codex-acp": {
       "default_config_options": {
+        "mode": "agent-full-access",
         "reasoning_effort": "high"
       },
       "type": "registry"
@@ -172,7 +188,7 @@
     "copy_on_select": true,
     "font_family": "JetBrainsMonoNL Nerd Font",
   },
-  "theme": "Gruvbox Dark Soft",
+  "theme": "Gruvbox Dark",
   "vim_mode": false,
   "wrap_guides": [
     80,
