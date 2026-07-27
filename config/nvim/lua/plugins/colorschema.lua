@@ -7,48 +7,51 @@
 -- ================================================================================================
 
 return {
-  --   {
-  --     "folke/tokyonight.nvim",
-  --     lazy = true,
-  --   },
-  --   {
-  --     "Shatur/neovim-ayu",
-  --     lazy = true,
-  --     priority = 1000,
-  --   },
-  --   {
-  --     "LazyVim/LazyVim",
-  --     opts = {
-  --       colorscheme = "ayu-mirage",
-  --       -- colorscheme = "folke/tokyonight.nvim",
-  --     },
-  --   },
   {
-    "savq/melange-nvim",
+    "ellisonleao/gruvbox.nvim",
     lazy = false,
     priority = 999,
     config = function()
-      vim.cmd('colorscheme melange')
+      require("gruvbox").setup({
+        contrast = "",
+        terminal_colors = true,
+        styles = {
+          comments = { italic = true },
+          keywords = { bold = true },
+        },
+        overrides = {
+          SignColumn = { bg = "NONE" },
+
+          DiagnosticSignError = { bg = "NONE" },
+          DiagnosticSignWarn = { bg = "NONE" },
+          DiagnosticSignInfo = { bg = "NONE" },
+          DiagnosticSignHint = { bg = "NONE" },
+          DiagnosticSignOk = { bg = "NONE" },
+
+          GitSignsAdd = { bg = "NONE" },
+          GitSignsChange = { bg = "NONE" },
+          GitSignsDelete = { bg = "NONE" },
+
+          Keyword = { fg = "#61afef" },
+          Conditional = { fg = "#61afef" },
+          Repeat = { fg = "#61afef" },
+
+          ["@keyword"] = { fg = "#61afef" },
+          ["@keyword.function"] = { fg = "#61afef" },
+          ["@keyword.return"] = { fg = "#61afef" },
+        },
+      })
+
+      vim.o.background = "dark"
+      vim.cmd.colorscheme("gruvbox")
     end,
   },
-  -- {
-  --   "EdenEast/nightfox.nvim",
-  --   lazy = false,
-  --   priority = 999,
-  --   config = function()
-  --     local palette = require("nightfox.palette").load("duskfox")
-
-  --     require("nightfox").setup({
-  --       options = {
-  --         transparent = false,
-  --       },
-  --       groups = {
-  --         duskfox = {
-  --           Visual = { bg = palette.bg1 },
-  --         },
-  --       },
-  --     })
-  --     vim.cmd("colorscheme duskfox")
-  --   end,
-  -- },
+  {
+    "savq/melange-nvim",
+    lazy = false,
+    priority = 1000,
+    config = function()
+      vim.cmd("colorscheme melange")
+    end,
+  },
 }
