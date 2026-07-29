@@ -1,0 +1,10 @@
+[ui.toast]
+delivery = "terminal"
+
+[experimental]
+pane_history = true
+switch_ascii_input_source_in_prefix = true
+
+[theme]
+name = "gruvbox"
+auto_switch = false

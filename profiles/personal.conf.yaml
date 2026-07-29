@@ -14,25 +14,26 @@ create:
   - ~/.config/git/
 
 link:
-  ~/.config/nvim: config/nvim
+  ~/.claude: config/claude
+  ~/.config/atuin: config/atuin
+  ~/.config/fish: config/fish
+  ~/.config/ghostty: config/ghostty
   ~/.config/git/config.base: config/git/config
   ~/.config/git/config: config/git/config.personal
   ~/.config/git/ignore: config/git/ignore
+  ~/.config/herdr: config/herdr
   ~/.config/htop: config/htop
-  ~/.config/tmux: config/tmux
-  ~/.config/ghostty: config/ghostty
-  ~/.config/kitty: config/kitty
-  ~/.config/zed: config/zed
-  ~/.config/mise: config/mise
-  ~/.config/yazi: config/yazi
-  ~/.config/atuin: config/atuin
-  ~/.config/zellij: config/zellij
-  ~/.config/fish: config/fish
   ~/.config/just: config/just
+  ~/.config/kitty: config/kitty
+  ~/.config/mise: config/mise
+  ~/.config/nvim: config/nvim
   ~/.config/starship.toml: config/starship/starship.toml
+  ~/.config/tmux: config/tmux
+  ~/.config/yazi: config/yazi
+  ~/.config/zed: config/zed
+  ~/.config/zellij: config/zellij
   ~/.config/zsh: config/zsh
   ~/.zshrc: config/zsh/zshrc.zsh
-  ~/.claude: config/claude
   ~/bin: scripts/bin
 
 shell:
