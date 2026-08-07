@@ -30,7 +30,6 @@ link:
   ~/.config/tmux: config/tmux
   ~/.config/yazi: config/yazi
   ~/.config/zed: config/zed
-  ~/.config/zellij: config/zellij
   ~/.config/zsh: config/zsh
   ~/.zshrc: config/zsh/zshrc.zsh
   ~/bin: scripts/bin
